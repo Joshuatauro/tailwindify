@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { ClipboardIcon, EyeIcon } from '@heroicons/react/outline'
 import { CodeIcon } from '@heroicons/react/solid'
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-import docco from 'react-syntax-highlighter/dist/cjs/styles/hljs/docco';
+import docco from 'react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-dark';
 import htmlbars from 'react-syntax-highlighter/dist/cjs/languages/hljs/htmlbars';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { ToastContainer, toast } from 'react-toastify';
