@@ -53,6 +53,8 @@ const ComponentDisplay = ({componentName, component, codeString}) => {
           </CopyToClipboard>
         </div>
       </div>
+
+      
       
       {
         isViewingCode ? 

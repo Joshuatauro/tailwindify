@@ -141,9 +141,9 @@ const navbar = () => {
       <div className="w-10/12 py-10 m-auto">
         <h1 className="text-3xl text-gray-900 dark:text-gray-100 font-black">Navbar</h1>
 
-        <ComponentDisplay component={<NavAuth />} componentName="Simple Navbar with Authentication buttons" codeString={codeStrings[0]} />
-        <ComponentDisplay component={<NavUserProfile />} componentName="Simple Navbar with User profile image" codeString={codeStrings[1]} />
-        <ComponentDisplay component={<NavSearchProfile />} componentName="Simple Navbar with Search bar and User profile" codeString={codeStrings[2]} />
+        <ComponentDisplay component={<NavAuth />} componentName="With Authentication" codeString={codeStrings[0]} />
+        <ComponentDisplay component={<NavUserProfile />} componentName="With User profile image" codeString={codeStrings[1]} />
+        <ComponentDisplay component={<NavSearchProfile />} componentName="With Search bar " codeString={codeStrings[2]} />
       </div>
     </section>
   )

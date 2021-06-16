@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       name: "Forms",
-      numberOfComponents: 0,
+      numberOfComponents: 1,
       url: "forms"
     },
 
@@ -95,7 +95,7 @@ export default function Home() {
           <p className="text-md font-medium text-gray-600">Get ready-made components for all kinds of stuff ranging from navigation bars, to pricing cards, forms, all the way to complete landing page kits, so that you can get up and running faster than ever </p>
           <div className="grid grid-cols-3 gap-3 mt-4">
             {
-              componentArray.map(({name, numberOfComponents, url}) => <ComponentPreview name={name} url={url} numberOfComponents={numberOfComponents} />)
+              componentArray.sort((a,b) => b.numberOfComponents-a.numberOfComponents).map(({name, numberOfComponents, url}) => <ComponentPreview name={name} url={url} numberOfComponents={numberOfComponents} />)
             }
           </div>
         </div>
