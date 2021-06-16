@@ -4,6 +4,7 @@ import NavAuth from '../../components/Navs/NavAuth'
 import NavSearchProfile from '../../components/Navs/NavSearchProfile'
 import NavUserProfile from '../../components/Navs/NavUserProfile'
 
+
 const navbar = () => {
   const codeStrings = [
     ` <nav className="w-full dark:bg-gray-900 bg-white duration-500 transition-all ">
@@ -143,7 +144,6 @@ const navbar = () => {
         <ComponentDisplay component={<NavAuth />} componentName="Simple Navbar with Authentication buttons" codeString={codeStrings[0]} />
         <ComponentDisplay component={<NavUserProfile />} componentName="Simple Navbar with User profile image" codeString={codeStrings[1]} />
         <ComponentDisplay component={<NavSearchProfile />} componentName="Simple Navbar with Search bar and User profile" codeString={codeStrings[2]} />
-
       </div>
     </section>
   )
