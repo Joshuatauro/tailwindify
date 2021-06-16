@@ -2,7 +2,7 @@ import React from 'react'
 import { BellIcon } from '@heroicons/react/outline'
 const NavUserProfile = () => {
   return (
-    <nav className="w-full dark:bg-gray-900">
+    <nav className="w-full dark:bg-gray-900 bg-white duration-300 transition-all">
       <div className="w-11/12 py-5 m-auto flex justify-between items-center h-full">
         <h1 className="text-3xl font-black dark:text-white ">Company</h1>
         <ul className="flex items-center">

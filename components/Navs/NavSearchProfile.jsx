@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavSearchProfile = () => {
   return (
-    <nav className="w-full dark:bg-gray-900 flex items-center">
+    <nav className="w-full dark:bg-gray-900 bg-white duration-300 transition-all   flex items-center">
       <div className="w-11/12 py-5 mx-auto flex justify-between">
         <div className="flex flex-grow">
           <h1 className="text-3xl font-black dark:text-white mr-3 ">Company</h1>

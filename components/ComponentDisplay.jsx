@@ -1,7 +1,7 @@
 import { ClipboardIcon, EyeIcon } from '@heroicons/react/outline'
 import { CodeIcon } from '@heroicons/react/solid'
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-import hybrid from 'react-syntax-highlighter/dist/cjs/styles/hljs/hybrid';
+import atomOneDark from 'react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-dark';
 import React, { useEffect, useState } from 'react'
 import htmlbars from 'react-syntax-highlighter/dist/cjs/languages/hljs/htmlbars';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
@@ -41,7 +41,7 @@ const ComponentDisplay = ({componentName, component, codeString}) => {
       {
         isViewingCode ? 
         (
-          <SyntaxHighlighter language="htmlbars" style={hybrid}>
+          <SyntaxHighlighter language="htmlbars" style={atomOneDark} className="text-sm">
             {codeString}
           </SyntaxHighlighter>
         ) : 
