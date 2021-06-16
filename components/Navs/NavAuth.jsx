@@ -2,9 +2,9 @@ import React from 'react'
 
 const NavAuth = () => {
   return (
-    <nav className="w-full dark:bg-gray-900">
-      <div className="w-11/12 m-auto flex justify-between items-center py-4">
-        <h1 className="text-3xl font-black dark:text-white ">Company</h1>
+    <nav className="w-full dark:bg-gray-900 bg-white duration-500 transition-all ">
+      <div className="w-11/12 py-5 m-auto flex justify-between items-center ">
+        <h1 className="text-3xl font-black text-gray-900 dark:text-white ">Company</h1>
         <ul className="flex items-center">
           <li className="font-medium mx-2">
             <a href="" className="border-b-2 transition-all duration-100 border-transparent dark:hover:border-gray-300 dark:text-gray-300 hover:border-gray-900">

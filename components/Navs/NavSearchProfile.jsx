@@ -3,7 +3,7 @@ import React from 'react'
 const NavSearchProfile = () => {
   return (
     <nav className="w-full dark:bg-gray-900 flex items-center">
-      <div className="w-11/12 mx-auto flex justify-between">
+      <div className="w-11/12 py-5 mx-auto flex justify-between">
         <div className="flex flex-grow">
           <h1 className="text-3xl font-black dark:text-white mr-3 ">Company</h1>
           <input type="text" className="bg-transparent w-full border border-gray-400 dark:border-gray-700 rounded-md px-2 text-gray-700 dark:text-gray-300 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-700" placeholder="Search..." />

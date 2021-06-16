@@ -3,7 +3,7 @@ import { BellIcon } from '@heroicons/react/outline'
 const NavUserProfile = () => {
   return (
     <nav className="w-full dark:bg-gray-900">
-      <div className="w-11/12 m-auto flex justify-between items-center h-full">
+      <div className="w-11/12 py-5 m-auto flex justify-between items-center h-full">
         <h1 className="text-3xl font-black dark:text-white ">Company</h1>
         <ul className="flex items-center">
           <li className="font-medium mx-2">

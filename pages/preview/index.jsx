@@ -5,10 +5,8 @@ import NavAuth from '../../components/Navs/NavAuth'
 import NavUserProfile from '../../components/Navs/NavUserProfile'
 const index = () => {
   return (
-    <div className="grid grid-rows-3 gap-5 mt-5">
-      <NavSearchProfile />
-      <NavAuth />
-      <NavUserProfile />
+    <div className="flex flex-col pt-5 min-h-screen bg-gray-200">
+
     </div>
   )
 }
