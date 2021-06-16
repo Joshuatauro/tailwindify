@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 SyntaxHighlighter.registerLanguage('htmlbars', htmlbars);
 const ComponentDisplay = ({componentName, component, codeString}) => {
 
+  
   const [isViewingCode, setIsViewingCode] = useState(false)
 
   const copyToClipboard = () => {
