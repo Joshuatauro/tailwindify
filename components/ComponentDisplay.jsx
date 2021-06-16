@@ -1,18 +1,18 @@
+import React, { useEffect, useState } from 'react'
+
 import { ClipboardIcon, EyeIcon } from '@heroicons/react/outline'
 import { CodeIcon } from '@heroicons/react/solid'
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-import atomOneDark from 'react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-dark';
-import React, { useEffect, useState } from 'react'
+import docco from 'react-syntax-highlighter/dist/cjs/styles/hljs/docco';
 import htmlbars from 'react-syntax-highlighter/dist/cjs/languages/hljs/htmlbars';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 SyntaxHighlighter.registerLanguage('htmlbars', htmlbars);
 const ComponentDisplay = ({componentName, component, codeString}) => {
 
-  
+
   const [isViewingCode, setIsViewingCode] = useState(false)
 
   const copyToClipboard = () => {
@@ -56,7 +56,7 @@ const ComponentDisplay = ({componentName, component, codeString}) => {
       {
         isViewingCode ? 
         (
-          <SyntaxHighlighter language="htmlbars" style={atomOneDark} className="text-sm">
+          <SyntaxHighlighter language="htmlbars" style={docco} className="text-sm">
             {codeString}
           </SyntaxHighlighter>
         ) : 
