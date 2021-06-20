@@ -65,7 +65,7 @@ const ComponentDisplay = ({componentName, component, codeString}) => {
         ) : 
         (
           <div className="w-full bg-gray-300 rounded-lg dark:bg-gray-700  border border-gray-400 dark:border-gray-600">
-            <div className=" py-6  m-auto">
+            <div className=" py-6 flex items-center justify-center">
               {component}
             </div>
           </div>

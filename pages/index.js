@@ -40,6 +40,11 @@ export default function Home() {
       numberOfComponents: 2,
       url: "forms"
     },
+    {
+      name: "Buttons",
+      numberOfComponents: 3,
+      url: "buttons"
+    },
 
   ]
 
@@ -89,7 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="components" className="bg-gray-200 py-10 text-gray-900">
+      <section id="components" className="bg-white py-10 text-gray-900">
         <div className="w-10/12 m-auto font-medium text-white">
           <h1 className="text-3xl text-gray-900  font-black">Our components</h1>
           <p className="text-md font-medium text-gray-600">Get ready-made components for all kinds of stuff ranging from navigation bars, to pricing cards, forms, all the way to complete landing page kits, so that you can get up and running faster than ever </p>
