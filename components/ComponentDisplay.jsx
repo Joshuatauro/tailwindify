@@ -37,18 +37,18 @@ const ComponentDisplay = ({componentName, component, codeString}) => {
         <div className="flex items-center">
           {
             isViewingCode ? (
-              <button onClick={e => setIsViewingCode(false)} className="py-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-700">
-                <EyeIcon  className="h-5 w-5 text-white"/>
+              <button onClick={e => setIsViewingCode(false)} className="py-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-400 dark:bg-gray-700">
+                <EyeIcon  className="h-5 w-5 text-gray-900 dark:text-white"/>
               </button>
             ) : (
-              <button onClick={e => setIsViewingCode(true)} className="py-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-700">
-                <CodeIcon className="h-5 w-5 text-white"/>
+              <button onClick={e => setIsViewingCode(true)} className="py-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-400 dark:bg-gray-700">
+                <CodeIcon className="h-5 w-5 text-gray-900 dark:text-white"/>
               </button>
             )
           }
           <CopyToClipboard text={codeString}>
-            <button onClick={copyToClipboard}  className="py-2 mx-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-700">
-              <ClipboardIcon  className="h-5 w-5 text-white"/>
+            <button onClick={copyToClipboard}  className="py-2 mx-2 focus:outline-none hover:bg-opacity-80 duration-100 transition-all rounded-sm px-2 bg-gray-400 dark:bg-gray-700">
+              <ClipboardIcon  className="h-5 w-5 text-gray-900 dark:text-white"/>
             </button>
           </CopyToClipboard>
         </div>

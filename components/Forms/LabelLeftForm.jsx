@@ -1,8 +1,8 @@
 import React from 'react'
 
-const index = () => {
+const LabelLeftForm = () => {
   return (
-  <section className="w-full bg-white dark:bg-gray-900 duration-300 transition-all">
+    <section className="w-full bg-white dark:bg-gray-900 duration-300 transition-all">
     <div className="w-11/12 m-auto py-10">
       <h1 className="text-xl font-bold text-gray-900 dark:text-white">
         Profile settings
@@ -92,4 +92,4 @@ const index = () => {
   )
 }
 
-export default index
+export default LabelLeftForm

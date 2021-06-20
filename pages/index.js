@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       name: "Forms",
-      numberOfComponents: 1,
+      numberOfComponents: 2,
       url: "forms"
     },
 
