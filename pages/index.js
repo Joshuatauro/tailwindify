@@ -2,13 +2,16 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { BriefcaseIcon, CodeIcon, SparklesIcon, ZoomInIcon } from '@heroicons/react/solid'
 import ComponentPreview from '../components/ComponentPreview'
+// import fs from 'fs'
 export default function Home() {
+  const dir = './components'
 
   const componentArray = [
     {
       name: "Navbars",
       numberOfComponents: 3,
-      url: "navbar"
+      url: "navbar",
+      
     },
     {
       name: "Sidebar Navs",
@@ -42,7 +45,7 @@ export default function Home() {
     },
     {
       name: "Buttons",
-      numberOfComponents: 3,
+      numberOfComponents: 4,
       url: "buttons"
     },
 
